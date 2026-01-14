@@ -19,7 +19,7 @@ app.add_middleware(
 )
 
 # Initialize Gemini client
-client = genai.Client(api_key="AIzaSyDevz1Zxj17nh3YYAZw_sHd7w5goSUWqhg")
+client = genai.Client(api_key="")
 
 recognizer = sr.Recognizer()  # single recognizer
 
